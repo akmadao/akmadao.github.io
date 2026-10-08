@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="BigHS AI Trader는 빗썸 시장 데이터와 AI 분석을 활용하는 개인용 트레이딩 관리 시스템입니다.">
+  <title>BigHS AI Trader | 서비스 안내</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #f5f7fb; color: #172238; line-height: 1.8; }
+    header { padding: 22px 24px; background: #0c203e; color: #fff; }
+    header nav { max-width: 860px; margin: auto; display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+    header a { color: #d3e2ff; text-decoration: none; font-size: .9rem; }
+    main { max-width: 860px; margin: 36px auto; padding: 0 20px; }
+    section { background: #fff; border: 1px solid #e5eaf2; border-radius: 16px; padding: 28px; margin-bottom: 20px; }
+    .eyebrow { letter-spacing: .08em; font-weight: 700; color: #3662b4; font-size: .8rem; }
+    h1 { font-size: 2.2rem; line-height: 1.35; margin: 8px 0 14px; }
+    h2 { font-size: 1.2rem; margin: 0 0 12px; }
+    ul { padding-left: 22px; }
+    a { color: #2356b2; }
+    .muted { color: #58667b; }
+    footer { max-width: 860px; margin: 0 auto; padding: 8px 20px 45px; font-size: .9rem; color: #5d6878; }
+    @media(max-width:600px){ section{padding:22px;}h1{font-size:1.7rem;} }
+  </style>
+</head>
+<body>
+  <header><nav><strong>BigHS AI Trader</strong><a href="privacy.html">개인정보처리방침</a></nav></header>
+  <main>
+    <section>
+      <div class="eyebrow">PERSONAL TRADING MANAGEMENT</div>
+      <h1>BigHS AI Trader</h1>
+      <p>빗썸 시장 데이터를 수집하고 AI 분석 결과를 활용하여 거래 전략과 위험을 관리하는 개인 운영용 웹 애플리케이션입니다.</p>
+      <p class="muted">이 사이트는 Google OAuth 동의 화면에 표시되는 서비스 소개용 공개 페이지입니다. 실제 관리 대시보드는 별도 인증이 필요한 비공개 시스템입니다.</p>
+    </section>
+    <section>
+      <h2>주요 기능</h2>
+      <ul>
+        <li>시세와 캔들 데이터 수집, 분석용 스냅샷 생성</li>
+        <li>AI 분석 결과의 수신·검증 및 거래 의사결정 지원</li>
+        <li>모의거래(PAPER)와 주문·포지션·위험 관리</li>
+        <li>Google Drive를 통한 분석 파일 교환 및 상태 기록</li>
+      </ul>
+      <p>자동매매와 실거래 여부는 운영 환경 및 사용자의 별도 설정과 승인에 따라 제한됩니다.</p>
+    </section>
+    <section>
+      <h2>Google Drive 사용 목적</h2>
+      <p>운영자가 Google 계정으로 접근을 허용한 Drive 파일을 사용하여 시장 스냅샷, 분석 입력·결과, 시스템 상태 파일을 읽고 쓰는 데 사용합니다. OAuth 요청 권한은 <code>drive.file</code> 범위이며, Google 계정 비밀번호를 수집하지 않습니다.</p>
+      <p><a href="privacy.html">개인정보처리방침 전문 보기 →</a></p>
+    </section>
+    <section>
+      <h2>운영 및 문의</h2>
+      <p>운영 형태: 개인 개발·운영 프로젝트<br>이메일: <a href="mailto:akmadao@naver.com">akmadao@naver.com</a></p>
+    </section>
+  </main>
+  <footer>© 2026 BigHS AI Trader · <a href="privacy.html">개인정보처리방침</a> · <a href="terms.html">서비스 이용 안내</a></footer>
+</body>
+</html>
